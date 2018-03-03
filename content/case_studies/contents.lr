@@ -12,3 +12,53 @@ image_url: fpo_infographic.png
 header: Lorem Ipsum
 ---
 description: tortor consequat id porta nibh venenatis cras sed felis eget velit aliquet sagittis id consectetur purus ut faucibus pulvinar elementum integer enim neque volutpat ac tincidunt vitae semper quis lectus
+---
+sections:
+
+#### infographic ####
+title: FPO Infographic
+----
+image_url: fpo_infographic.png
+#### grid ####
+title: Case Study
+----
+header: Lorem Ipsum
+----
+tiles:
+
+##### grid_tile #####
+title: Tile One
+-----
+description: Here is tile 1.
+-----
+image_url: thumb1.png
+##### grid_tile #####
+title: Tile Two
+-----
+description: Here is tile 2.
+-----
+image_url: thumb2.png
+##### grid_tile #####
+title: Tile Three
+-----
+description: Here is tile 3.
+-----
+image_url: thumb3.png
+##### grid_tile #####
+title: Tile Four
+-----
+description: Here is tile 4.
+-----
+image_url: thumb1.png
+##### grid_tile #####
+title: Title Five
+-----
+description: Here is tile 5.
+-----
+image_url: thumb2.png
+##### grid_tile #####
+title: Tile Six
+-----
+description: Here is tile 6.
+-----
+image_url: thumb3.png
