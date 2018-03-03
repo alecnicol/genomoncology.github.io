@@ -6,5 +6,8 @@
         {{ section }}
     {% endfor %}
 
+    {% from "macros/clients_served.html" import render_clients_served %}
+    {{ render_clients_served() }}
+
 {% endblock %}
 
