@@ -1,0 +1,591 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:300,300i,400,400i,600,600i");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700");
+* {
+  margin: 0px;
+  padding: 0px; }
+
+.clearfix {
+  clear: both; }
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  font-family: 'Montserrat', sans-serif; }
+
+ul li {
+  list-style: none; }
+
+.alignleft {
+  float: left; }
+
+.alignright {
+  float: right; }
+
+.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+h2 {
+  font-weight: 300;
+  color: #5a5a5a; }
+
+p {
+  color: #5a5a5a; }
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1170px; } }
+@media (min-width: 320px) {
+  .site-header .srch_icon {
+    position: absolute;
+    top: 12px;
+    right: 70px; }
+
+  .navbar-toggler img, .srch_icon img {
+    width: 25px;
+    height: auto; }
+
+  .navbar-brand img {
+    width: 150px; }
+
+  .section {
+    padding-top: 50px;
+    padding-bottom: 50px; }
+
+  .inner-content {
+    padding-left: 15px;
+    padding-right: 15px;
+    background: #0f1c38; }
+    .inner-content h2 {
+      text-align: left;
+      margin-top: 30px; }
+
+  .boxes .box {
+    max-width: 375px;
+    margin-left: auto;
+    margin-right: auto; }
+
+  #testimonials {
+    padding: 90px 50px 50px 50px; }
+
+  .ohio-state-university {
+    padding: 30px 15px; }
+
+  .container-wrapper {
+    background: #111f3a; }
+
+  .section-tailored-solutions {
+    background-position: -570px 0px !important; }
+
+  .block-left, .newsletter-and-socail-icons {
+    max-width: 385px;
+    margin-left: auto;
+    margin-right: auto; }
+
+  .site-footer {
+    padding-top: 40px;
+    padding-bottom: 40px; }
+
+  .social-icons {
+    text-align: center; }
+    .social-icons ul {
+      display: inline-block;
+      margin-top: 30px; }
+
+  .footer-menu-and-copyright {
+    text-align: center; }
+    .footer-menu-and-copyright ul {
+      display: inline-block;
+      margin-bottom: 0px; }
+      .footer-menu-and-copyright ul li {
+        float: left; }
+        .footer-menu-and-copyright ul li a {
+          text-transform: uppercase;
+          border-right: 1px solid #fff;
+          padding-left: 20px;
+          padding-right: 20px; }
+        .footer-menu-and-copyright ul li:last-child a {
+          border-right: 0px solid #fff; }
+    .footer-menu-and-copyright p.copyright {
+      margin-top: 0px; } }
+@media (min-width: 576px) {
+  .site-header .srch_icon {
+    position: absolute;
+    top: 11px;
+    right: 95px; }
+
+  .navbar-toggler img, .srch_icon img {
+    width: 30px;
+    height: auto; }
+
+  .navbar-brand img {
+    width: 200px; } }
+@media (min-width: 768px) {
+  .site-header .srch_icon {
+    top: 22px;
+    right: 95px; }
+
+  .navbar-toggler img, .srch_icon img {
+    width: 35px;
+    height: auto; }
+
+  .navbar-brand img {
+    width: auto; }
+
+  .section {
+    padding-top: 100px;
+    padding-bottom: 100px; }
+
+  .inner-content {
+    background: #0f1c38;
+    padding-top: 45px; }
+    .inner-content h2 {
+      text-align: right;
+      margin-top: 150px; }
+
+  #testimonials {
+    padding: 90px 135px 50px 135px; }
+
+  .ohio-state-university {
+    padding: 30px 135px; }
+
+  .container-wrapper {
+    background: none; }
+
+  .br-more {
+    display: none; }
+
+  .block-left, .newsletter-and-socail-icons {
+    max-width: auto; }
+
+  .site-footer {
+    padding-top: 80px;
+    padding-bottom: 80px; }
+
+  .social-icons {
+    text-align: left; }
+    .social-icons ul {
+      display: inline-block;
+      margin-top: 80px; }
+
+  .footer-menu-and-copyright {
+    text-align: left; }
+    .footer-menu-and-copyright ul {
+      display: inline-block;
+      margin-bottom: 0px; }
+      .footer-menu-and-copyright ul li {
+        float: none; }
+        .footer-menu-and-copyright ul li a {
+          text-transform: uppercase;
+          border-right: 0px solid #fff;
+          padding-left: 0px;
+          padding-right: 0px; }
+        .footer-menu-and-copyright ul li:last-child a {
+          border-right: 0px solid #fff; }
+    .footer-menu-and-copyright p.copyright {
+      margin-top: 15px; } }
+@media (min-width: 992px) {
+  .tailored-solutions {
+    padding-left: 370px; }
+
+  .section-tailored-solutions {
+    background-position: -115px top !important; } }
+.page-wrapper {
+  overflow: hidden; }
+
+.background-dark {
+  background: #111f3a; }
+
+.bg-blue {
+  background: #3e84a1; }
+
+.site-header {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 99999; }
+  .site-header .navbar {
+    background: rgba(43, 140, 155, 0.6);
+    padding: .9rem 1rem; }
+  .site-header .navbar.small {
+    background: #2b8c9b; }
+  .site-header .container {
+    position: relative; }
+  .site-header .navbar-toggler {
+    margin-top: 5px; }
+
+.section-banner {
+  color: #fff;
+  background: url(../img/hero_bg.png) no-repeat;
+  background-size: cover;
+  min-height: 700px;
+  position: relative; }
+  .section-banner .container {
+    position: relative;
+    min-height: 700px;
+    text-align: center; }
+  .section-banner .intro-content {
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px 15px; }
+    .section-banner .intro-content h1 {
+      color: #9fce67;
+      font-size: 35px;
+      text-transform: uppercase; }
+    .section-banner .intro-content h2 {
+      font-weight: 300;
+      font-size: 50px;
+      color: #fff;
+      text-transform: uppercase; }
+    .section-banner .intro-content p {
+      font-size: 30px;
+      font-weight: 300;
+      color: #fff;
+      line-height: 40px;
+      margin-top: 20px; }
+
+.section-fpo-infographic {
+  background: #3e84a1; }
+  .section-fpo-infographic .inner-content {
+    background: #0f1c38;
+    padding-top: 45px; }
+    .section-fpo-infographic .inner-content h2 {
+      font-size: 48px;
+      text-transform: uppercase;
+      color: #fff;
+      font-weight: 300; }
+
+.section-header .green-text {
+  color: #9fce67;
+  font-size: 35px;
+  font-weight: 400;
+  text-transform: uppercase; }
+.section-header h2 {
+  font-size: 50px;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #fff; }
+
+.section-case-study {
+  padding-top: 50px;
+  padding-bottom: 50px; }
+  .section-case-study .section-header .green-text {
+    color: #9fce67;
+    font-size: 35px;
+    font-weight: 400;
+    text-transform: uppercase; }
+  .section-case-study .section-header h2 {
+    font-size: 50px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #fff; }
+  .section-case-study .boxes {
+    margin-top: 40px; }
+    .section-case-study .boxes .box {
+      margin-bottom: 40px; }
+      .section-case-study .boxes .box img {
+        border-bottom: 3px solid #9fce67; }
+      .section-case-study .boxes .box h3 {
+        margin-top: 25px; }
+        .section-case-study .boxes .box h3 a {
+          font-size: 30px;
+          font-weight: 300;
+          text-transform: uppercase;
+          color: #9fce67;
+          text-decoration: none; }
+      .section-case-study .boxes .box p {
+        font-size: 20px;
+        font-weight: 300;
+        text-transform: uppercase;
+        color: #d5d6d9; }
+        .section-case-study .boxes .box p a.more {
+          color: #9fce67; }
+
+.section-testimonials {
+  background: url(../img/testimonial_bg.png) no-repeat;
+  background-size: cover; }
+  .section-testimonials .inner-container {
+    text-align: center;
+    background: #111f3a; }
+    .section-testimonials .inner-container #testimonials {
+      /*padding: 90px 135px 50px 135px;*/ }
+      .section-testimonials .inner-container #testimonials h3 {
+        font-weight: 300;
+        color: #9fce67;
+        font-size: 20px;
+        text-transform: uppercase; }
+      .section-testimonials .inner-container #testimonials .flexslider {
+        background: none;
+        box-shadow: none; }
+        .section-testimonials .inner-container #testimonials .flexslider li {
+          color: #fff;
+          font-weight: 300;
+          font-size: 30px;
+          line-height: 48px; }
+    .section-testimonials .inner-container .ohio-state-university {
+      clear: both;
+      text-align: left;
+      border-top: 3px solid #9fce67; }
+      .section-testimonials .inner-container .ohio-state-university img {
+        float: left; }
+      .section-testimonials .inner-container .ohio-state-university p {
+        color: #9fce67;
+        font-weight: 300;
+        font-size: 20px;
+        text-transform: uppercase;
+        margin-left: 110px; }
+
+.section-press-releases {
+  padding-top: 50px;
+  padding-bottom: 50px; }
+  .section-press-releases .section-header .green-text {
+    color: #9fce67;
+    font-size: 35px;
+    font-weight: 400;
+    text-transform: uppercase; }
+  .section-press-releases .section-header h2 {
+    font-size: 50px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #fff; }
+  .section-press-releases .boxes {
+    margin-top: 40px; }
+    .section-press-releases .boxes .box {
+      margin-bottom: 40px; }
+      .section-press-releases .boxes .box img {
+        border-bottom: 3px solid #9fce67; }
+      .section-press-releases .boxes .box h3 {
+        margin-top: 25px; }
+        .section-press-releases .boxes .box h3 a {
+          font-size: 30px;
+          font-weight: 300;
+          text-transform: uppercase;
+          color: #9fce67;
+          text-decoration: none; }
+      .section-press-releases .boxes .box p {
+        font-size: 20px;
+        line-height: 21px;
+        font-weight: 300;
+        text-transform: uppercase;
+        color: #d5d6d9; }
+        .section-press-releases .boxes .box p a.more {
+          color: #9fce67; }
+
+.section-tailored-solutions {
+  background: url(../img/review_bg.png) no-repeat;
+  background-size: cover; }
+  .section-tailored-solutions .tailored-solutions {
+    max-width: 1070px;
+    margin-left: auto;
+    margin-right: auto;
+    /*p.quote:before{
+        width: 125px;
+        content: " ";
+        background-image: url(../img/quote.png);
+        background: red;
+        position: absolute;
+        left: -16px;
+        top: -6px;
+        height:103px;
+    }*/ }
+    .section-tailored-solutions .tailored-solutions h2 {
+      font-size: 35px;
+      font-weight: 400;
+      color: #9fce67;
+      text-transform: uppercase; }
+    .section-tailored-solutions .tailored-solutions h3 {
+      color: #233c6b;
+      font-size: 50px;
+      font-weight: 300;
+      text-transform: uppercase;
+      margin-bottom: 40px; }
+    .section-tailored-solutions .tailored-solutions p {
+      color: #111f3a;
+      font-size: 40px;
+      font-weight: 300; }
+    .section-tailored-solutions .tailored-solutions .btn-success {
+      background: #9fce67 !important;
+      color: #fff;
+      border: 1px solid #9fce67; }
+
+.section-clients {
+  padding-top: 100px;
+  bottom: 80px; }
+  .section-clients .section-header .green-text {
+    color: #9fce67;
+    font-size: 35px;
+    font-weight: 400;
+    text-transform: uppercase; }
+  .section-clients .section-header h2 {
+    font-size: 50px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #fff; }
+  .section-clients .clients {
+    padding-top: 30px;
+    padding-bottom: 50px; }
+    .section-clients .clients > div {
+      margin-bottom: 40px; }
+
+.section-contact .container-inner {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: #111f3a; }
+  .section-contact .container-inner h2 {
+    text-align: center;
+    font-weight: 300;
+    color: #fff;
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 30px; }
+  .section-contact .container-inner form {
+    max-width: 985px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px; }
+    .section-contact .container-inner form input {
+      height: 50px;
+      line-height: 1;
+      border-radius: 0px;
+      margin-bottom: 32px; }
+    .section-contact .container-inner form .btn-success {
+      background: #9fce67 !important;
+      color: #fff;
+      border: 1px solid #9fce67;
+      font-size: 20px;
+      text-transform: uppercase;
+      border-radius: 0px;
+      cursor: pointer; }
+
+.site-footer {
+  color: #d5d6d9; }
+  .site-footer .block-left {
+    color: #fff; }
+    .site-footer .block-left h3 {
+      padding-top: 7px;
+      padding-bottom: 5px;
+      border-bottom: 3px solid #9fce67; }
+      .site-footer .block-left h3 a {
+        font-weight: 400;
+        color: #fff;
+        font-size: 20px;
+        text-transform: uppercase; }
+        .site-footer .block-left h3 a:hover {
+          text-decoration: none;
+          color: #9fce67; }
+  .site-footer .footer-menu-and-copyright ul li a {
+    color: #d7e2e8;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 34px; }
+  .site-footer .footer-menu-and-copyright p.copyright {
+    color: #d7e2e8;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 34px; }
+  .site-footer .newsletter-and-socail-icons .subscribtion-form h3 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 300;
+    text-transform: uppercase; }
+  .site-footer .newsletter-and-socail-icons .subscribtion-form .fields-wrap {
+    position: relative; }
+  .site-footer .newsletter-and-socail-icons .subscribtion-form input[type="text"] {
+    height: 53px;
+    line-height: 1;
+    border: none;
+    width: 100%;
+    padding: 0px 65px 0px 10px; }
+  .site-footer .newsletter-and-socail-icons .subscribtion-form button[type="submit"] {
+    background: #9fce67;
+    width: 53px;
+    height: 53px;
+    border: none;
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    cursor: pointer; }
+  .site-footer .newsletter-and-socail-icons .social-icons ul {
+    margin-right: -15px; }
+    .site-footer .newsletter-and-socail-icons .social-icons ul li {
+      float: left;
+      margin-right: 15px; }
+      .site-footer .newsletter-and-socail-icons .social-icons ul li a {
+        display: block;
+        width: 40px;
+        height: 40px;
+        background: #9fce67;
+        color: #fff;
+        text-align: center;
+        line-height: 40px;
+        font-size: 22px; }
+
+.overlay {
+  height: 100%;
+  width: 100%;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.9); }
+
+.overlay-content {
+  position: relative;
+  top: 46%;
+  width: 80%;
+  text-align: center;
+  margin-top: 30px;
+  margin: auto; }
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+  cursor: pointer;
+  color: white; }
+
+.overlay .closebtn:hover {
+  color: #ccc; }
+
+.overlay input[type=text] {
+  padding: 15px;
+  font-size: 17px;
+  border: none;
+  float: left;
+  width: 80%;
+  background: white; }
+
+.overlay input[type=text]:hover {
+  background: #f1f1f1; }
+
+.overlay button {
+  float: left;
+  width: 20%;
+  padding: 15px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer; }
+
+.overlay button:hover {
+  background: #bbb; }
+
+/*# sourceMappingURL=main.css.map */

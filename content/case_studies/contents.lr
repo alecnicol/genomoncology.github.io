@@ -1,0 +1,14 @@
+_model: case_studies
+---
+title: Case Studies
+---
+infographic:
+
+#### infographic ####
+title: FPO Infographic
+----
+image_url: fpo_infographic.png
+---
+header: Lorem Ipsum
+---
+description: tortor consequat id porta nibh venenatis cras sed felis eget velit aliquet sagittis id consectetur purus ut faucibus pulvinar elementum integer enim neque volutpat ac tincidunt vitae semper quis lectus

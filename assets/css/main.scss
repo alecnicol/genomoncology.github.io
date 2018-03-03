@@ -1,0 +1,510 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:300,300i,400,400i,600,600i');
+@import 'variables';
+@import 'reset';
+@import 'media';
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700');
+
+.page-wrapper{
+	overflow: hidden;
+}
+.background-dark{
+	background: #111f3a;
+};
+.bg-blue{
+	background: #3e84a1;
+}
+.site-header{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 99999;
+	.navbar {
+	    background: rgba(43,140,155, 0.60);
+	    padding: .9rem 1rem;
+	}
+	.navbar.small {
+	    background: rgba(43,140,155, 1);
+	}
+	.container{
+		position: relative;
+	}
+
+	.navbar-toggler{
+		margin-top: 5px;
+	}
+}
+
+
+
+.section-banner{
+	color: #fff;
+	background:url(../img/hero_bg.png) no-repeat;
+	background-size: cover;
+	min-height: 700px;
+	position: relative;
+	.container{
+		position: relative;
+		min-height: 700px;
+		text-align: center;
+	}
+	.intro-content{
+		max-width: 950px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 20px;
+		h1{
+			color: $green;
+			font-size: 35px;
+			text-transform: uppercase;
+		}
+		h2{
+			font-weight: $light; 
+			font-size: 50px;
+			color: #fff;
+			text-transform: uppercase;
+		}
+		p{
+			font-size: 30px;
+			font-weight: $light; 
+			color: #fff;
+			line-height: 40px;
+			margin-top: 20px;
+		}
+		width:100%;
+		position: absolute; 
+		top: 50%; 
+		left: 50%;
+		transform: translate(-50%, -50%);
+		padding: 30px 15px;
+
+	}
+}
+.section-fpo-infographic{
+	background: #3e84a1;
+	.inner-content{
+		background: #0f1c38;
+		padding-top: 45px;
+		h2{
+			font-size: 48px;
+			text-transform: uppercase;
+			color: $white; 
+			font-weight: $light;
+		}
+	}
+}
+
+.section-header{
+	.green-text{
+		color: $green;
+		font-size: 35px;
+		font-weight:$regular;
+		text-transform:uppercase;
+	}
+	h2{
+		font-size: 50px;
+		font-weight:$light;
+		text-transform:uppercase;
+		color: $white;
+	}
+}
+.section-case-study{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	.section-header{
+		.green-text{
+			color: $green;
+			font-size: 35px;
+			font-weight:$regular;
+			text-transform:uppercase;
+		}
+		h2{
+			font-size: 50px;
+			font-weight:$light;
+			text-transform:uppercase;
+			color: $white;
+		}
+	}
+	.boxes{
+		margin-top:40px;
+		.box{
+			margin-bottom: 40px;
+			img{
+				border-bottom: 3px solid $green;
+			}
+			h3{
+				margin-top: 25px;
+				a{
+					font-size: 30px;
+					font-weight:$light;
+					text-transform:uppercase;
+					color: $green;
+					text-decoration: none;
+				}
+			}
+			p{
+				font-size: 20px;
+				font-weight:$light;
+				text-transform:uppercase;
+				color: #d5d6d9;
+				a.more{
+					color: $green;
+				}
+			}
+		}
+	}
+}
+.section-testimonials{
+	background:url(../img/testimonial_bg.png) no-repeat;
+	background-size: cover;
+	.inner-container{
+		text-align: center;
+		background: #111f3a;
+		#testimonials{
+			h3{
+				font-weight: $light; 
+				color: $green;
+				font-size: 20px;
+				text-transform: uppercase;
+			}
+			/*padding: 90px 135px 50px 135px;*/
+			.flexslider{
+				background: none;
+				box-shadow: none;
+				li{
+					color: #fff;
+					font-weight: $light;
+					font-size: 30px;
+					line-height: 48px;
+				}
+			}
+		}
+		.ohio-state-university{
+			clear: both;
+			text-align: left;
+			border-top: 3px solid $green;
+			img{
+				float: left; 
+			}
+			p{
+				color: $green;
+				font-weight: $light;
+				font-size: 20px;
+				text-transform:uppercase;
+				margin-left:110px;
+			}
+		}
+	}
+
+}
+
+.section-press-releases{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	.section-header{
+		.green-text{
+			color: $green;
+			font-size: 35px;
+			font-weight:$regular;
+			text-transform:uppercase;
+		}
+		h2{
+			font-size: 50px;
+			font-weight:$light;
+			text-transform:uppercase;
+			color: $white;
+		}
+	}
+	.boxes{
+		margin-top:40px;
+		.box{
+			margin-bottom: 40px;
+			img{
+				border-bottom: 3px solid $green;
+			}
+			h3{
+				margin-top: 25px;
+				a{
+					font-size: 30px;
+					font-weight:$light;
+					text-transform:uppercase;
+					color: $green;
+					text-decoration: none;
+				}
+			}
+			p{
+				font-size: 20px;
+				line-height: 21px;
+				font-weight:$light;
+				text-transform:uppercase;
+				color: #d5d6d9;
+				a.more{
+					color: $green;
+				}
+			}
+		}
+	}
+}
+.section-tailored-solutions{
+	background:url(../img/review_bg.png) no-repeat;
+	background-size: cover;
+
+	.tailored-solutions{
+		max-width: 1070px;
+		margin-left: auto;
+		margin-right: auto;
+		h2{
+			font-size: 35px;
+			font-weight: $regular;
+			color: $green;
+			text-transform: uppercase;
+		}
+		h3{
+			color: #233c6b;
+			font-size: 50px;
+			font-weight: $light;
+			text-transform: uppercase;
+			margin-bottom: 40px;
+		}
+		p{
+			color: #111f3a;
+			font-size: 40px;
+			font-weight: $light;
+			
+		}
+		/*p.quote:before{
+		    width: 125px;
+		    content: " ";
+		    background-image: url(../img/quote.png);
+		    background: red;
+		    position: absolute;
+		    left: -16px;
+		    top: -6px;
+		    height:103px;
+		}*/
+
+		.btn-success{
+			background: #9fce67!important;
+			color: #fff;
+			border:1px solid #9fce67;
+		}
+	}
+}
+
+.section-clients{
+	padding-top:100px;
+	bottom:80px;
+	.section-header{
+		.green-text{
+			color: $green;
+			font-size: 35px;
+			font-weight:$regular;
+			text-transform:uppercase;
+		}
+		h2{
+			font-size: 50px;
+			font-weight:$light;
+			text-transform:uppercase;
+			color: $white;
+		}
+	}
+	.clients{
+		padding-top: 30px;
+		padding-bottom: 50px;
+		> div{
+			margin-bottom: 40px;
+		}
+	}
+}
+.section-contact{
+
+	.container-inner{
+		padding-top: 30px;
+		padding-bottom: 30px;
+		background: #111f3a;
+		h2{
+			text-align: center;
+			font-weight: $light;
+			color: #fff;
+			font-size: 40px;
+			text-transform: uppercase;
+			margin-bottom: 30px;
+		}
+		form{
+			max-width: 985px;
+			margin-left: auto; 
+			margin-right: auto;
+			padding-left: 15px;
+			padding-right: 15px;
+			input{
+				height: 50px;
+				line-height: 1;
+				border-radius: 0px;
+				margin-bottom: 32px;
+			}
+			.btn-success{
+				background: #9fce67!important;
+				color: #fff;
+				border:1px solid #9fce67;
+				font-size: 20px;
+				text-transform: uppercase;
+				border-radius: 0px;
+				cursor: pointer;
+			}
+		}
+	}
+}
+.site-footer{
+	color: #d5d6d9;
+
+	.block-left{
+		color: #fff;
+		h3{
+			padding-top: 7px;
+			padding-bottom: 5px; 
+			border-bottom: 3px solid $green;
+			a{
+				font-weight: $regular; 
+				color: $white;
+				font-size: 20px;
+				text-transform: uppercase;
+				&:hover{
+					text-decoration: none;
+					color: $green;
+				}
+			}
+		}
+	}
+	.footer-menu-and-copyright{
+		ul{
+			li{
+				a{
+					color: #d7e2e8;
+					font-size: 16px; 
+					font-weight: $light;
+					line-height: 34px;
+				}
+			}
+		}
+		p.copyright{
+			color: #d7e2e8;
+			font-size: 16px; 
+			font-weight: $light;
+			line-height: 34px;
+		}
+	}
+	.newsletter-and-socail-icons{
+		.subscribtion-form{
+			h3{
+				color: $white;
+				font-size: 30px; 
+				font-weight: $light;
+				text-transform: uppercase;
+			}
+			.fields-wrap{
+				position: relative;
+			}
+			input[type="text"]{
+				height: 53px;
+				line-height: 1;
+				border: none;
+				width: 100%;
+				padding: 0px 65px 0px 10px;
+			}
+			button[type="submit"]{
+				background: $green;
+				width: 53px;
+				height: 53px;
+				border:none;
+				display: inline-block;
+				position: absolute;
+				top:0px;
+				right: 0px;
+				cursor: pointer;
+			}
+		}
+		.social-icons{
+			ul{
+				margin-right: -15px;
+				li{
+					float: left; 
+					margin-right: 15px;
+					a{
+						display: block;
+						width: 40px;
+						height: 40px;
+						background: $green;
+						color: $white;
+						text-align:center;
+						line-height: 40px;
+						font-size: 22px;
+					}
+				}
+			}
+		}
+	}
+}
+
+
+
+//Full Screen Search Form
+.overlay {
+    height: 100%;
+    width: 100%;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+}
+
+.overlay-content {
+    position: relative;
+    top: 46%;
+    width: 80%;
+    text-align: center;
+    margin-top: 30px;
+    margin: auto;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+    cursor: pointer;
+    color: white;
+}
+
+.overlay .closebtn:hover {
+    color: #ccc;
+}
+
+.overlay input[type=text] {
+    padding: 15px;
+    font-size: 17px;
+    border: none;
+    float: left;
+    width: 80%;
+    background: white;
+}
+
+.overlay input[type=text]:hover {
+    background: #f1f1f1;
+}
+
+.overlay button {
+    float: left;
+    width: 20%;
+    padding: 15px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.overlay button:hover {
+    background: #bbb;
+}

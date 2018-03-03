@@ -1,0 +1,24 @@
+//Font Weights
+$light: 300;
+$regular: 400;
+$semi-bold: 600;
+$bold: 700;
+
+//Base Font
+$base-font: Arial; 
+$font-stack: arial;
+$base-font-size: 13px; 
+$base-line-height: 1.4; 
+
+
+// Base colors
+$base-color: #5a5a5a;
+$brand-color: #C01B80;
+$green: #9fce67;
+$white: #fff;
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}

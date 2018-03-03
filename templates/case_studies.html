@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+    {% for infographic in this.infographic.blocks %}
+        {{ infographic }}
+    {% endfor %}
+
+{% endblock %}
+
