@@ -93,7 +93,56 @@
 		}
 	}
 
-
+	.capability-mobi{
+		margin-top: 15px;
+		ul{
+			li{
+			    background: url(../img/green_square.png) no-repeat 12px 6px;
+			    min-height: 15px;
+				padding-left: 40px;
+				margin-bottom: 20px;
+				color: $white;
+				a{
+					color: $green;
+				}
+			}
+		}
+	}
+	div#carousel {
+	    width: 290px;
+	}
+	.slide-wrap{
+		img.icon_video{
+			width: 68px;
+			height: 68px;
+		}
+	}
+	.section-clinical-oncology{
+		.content-area{
+			margin-bottom: 90px;
+			overflow: hidden;
+			.icon_wrap{
+				float: left; 
+				margin-bottom: 30px;
+			}
+			.content_wrap{
+				margin-left: 110px;
+			}
+		}
+	}
+	.section-capabilities{
+		.capabilities{
+			ul{
+				columns: 1;
+				-webkit-columns: 1;
+				-moz-columns: 1;
+				li{
+					margin-bottom: 18px;
+					background: url(../img/green_square.png) no-repeat 12px 5px;
+				}
+			}
+		}
+	}
 }
 
 
@@ -113,6 +162,7 @@
 			width: 200px;
 		}
 	}
+
 
 }
 
@@ -194,6 +244,57 @@
 			margin-top: 15px;
 		}
 	}
+	.padding-md-top-100{
+		padding-top: 100px!important;
+	}
+	.section-faq{
+		.faqs{
+			ul{
+				  columns: 3;
+				  -webkit-columns: 3;
+				  -moz-columns: 3;
+				li{
+					max-width: 250px;
+				}
+			}
+		}
+	}
+	.slide-wrap{
+		img.icon_video{
+			width: 168px;
+			height: 168px;
+		}
+	}
+	div#carousel {
+	    width: auto;
+	}
+	.section-clinical-oncology{
+		.content-area{
+			margin-bottom: 0px;
+			overflow: hidden;
+			.icon_wrap{
+				float: none; 
+				margin-bottom: 30px;
+			}
+			.content_wrap{
+				margin-left: 0px;
+			}
+		}
+	}
+	.section-capabilities{
+		.capabilities{
+			ul{
+				margin-top: 35px;
+				columns: 2;
+				-webkit-columns: 2;
+				-moz-columns: 2;
+				li{
+					margin-bottom: 48px;
+					background: url(../img/green_square.png) no-repeat 12px 12px;
+				}
+			}
+		}
+	}
 }
 
 // Large devices (desktops, 992px and up)
@@ -203,6 +304,26 @@
 	}
 	.section-tailored-solutions {
 	    background-position: -115px top!important;;
+	}
+	.section-clinical-oncology{
+		.content-area{
+			ul.columns2{
+			  margin-top: 35px;
+			  columns: 2;
+			  -webkit-columns: 2;
+			  -moz-columns: 2;
+			}
+		}
+	}
+	.section-capabilities{
+		.capabilities{
+			ul{
+				margin-top: 35px;
+				columns: 3;
+				-webkit-columns: 3;
+				-moz-columns: 3;
+			}
+		}
 	}
 }
 

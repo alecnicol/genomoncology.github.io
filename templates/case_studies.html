@@ -2,12 +2,21 @@
 
 {% block body %}
 
+    <div class="section-banner case-studies-banner">
+        <div class="container">
+            <div class="intro-content">
+                <h1>{{ this.header }}</h1>
+                <h2 class="page-title">{{ this.title }}</h2>
+                <p>{{ this.description }}</p>
+            </div><!-- /.intro-content -->
+        </div><!-- /.container -->
+    </div><!-- /.section-banner -->
+
     {% for section in this.sections.blocks %}
         {{ section }}
     {% endfor %}
 
-    {% from "macros/clients_served.html" import render_clients_served %}
-    {{ render_clients_served() }}
+    {% include 'includes/clients_served.html' %}
 
 {% endblock %}
 

@@ -14,6 +14,67 @@
 .bg-blue{
 	background: #3e84a1;
 }
+//Full Screen Search Form
+.overlay {
+    height: 100%;
+    width: 100%;
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+}
+
+.overlay-content {
+    position: relative;
+    top: 46%;
+    width: 80%;
+    text-align: center;
+    margin-top: 30px;
+    margin: auto;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+    cursor: pointer;
+    color: white;
+}
+
+.overlay .closebtn:hover {
+    color: #ccc;
+}
+
+.overlay input[type=text] {
+    padding: 15px;
+    font-size: 17px;
+    border: none;
+    float: left;
+    width: 80%;
+    background: white;
+}
+
+.overlay input[type=text]:hover {
+    background: #f1f1f1;
+}
+
+.overlay button {
+    float: left;
+    width: 20%;
+    padding: 15px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.overlay button:hover {
+    background: #bbb;
+}
 .site-header{
     position: fixed;
     top: 0px;
@@ -33,13 +94,76 @@
 	.navbar-toggler{
 		margin-top: 5px;
 	}
+
+	//Full Screen Search Form
+	.overlay {
+	    height: 100%;
+	    width: 100%;
+	    display: none;
+	    position: fixed;
+	    z-index: 1;
+	    top: 0;
+	    left: 0;
+	    background-color: rgb(0,0,0);
+	    background-color: rgba(0,0,0, 0.9);
+	}
+
+	.overlay-content {
+	    position: relative;
+	    top: 46%;
+	    width: 80%;
+	    text-align: center;
+	    margin-top: 30px;
+	    margin: auto;
+	}
+
+	.overlay .closebtn {
+	    position: absolute;
+	    top: 20px;
+	    right: 45px;
+	    font-size: 60px;
+	    cursor: pointer;
+	    color: white;
+	}
+
+	.overlay .closebtn:hover {
+	    color: #ccc;
+	}
+
+	.overlay input[type=text] {
+	    padding: 15px;
+	    font-size: 17px;
+	    border: none;
+	    float: left;
+	    width: 80%;
+	    background: white;
+	}
+
+	.overlay input[type=text]:hover {
+	    background: #f1f1f1;
+	}
+
+	.overlay button {
+	    float: left;
+	    width: 20%;
+	    padding: 15px;
+	    background: #ddd;
+	    font-size: 17px;
+	    border: none;
+	    cursor: pointer;
+	}
+
+	.overlay button:hover {
+	    background: #bbb;
+	}
 }
 
 
-
+.case-studies-banner{
+	background:url(../img/hero_bg.jpg) no-repeat;
+}
 .section-banner{
 	color: #fff;
-	background:url(../img/hero_bg.png) no-repeat;
 	background-size: cover;
 	min-height: 700px;
 	position: relative;
@@ -246,7 +370,7 @@
 	}
 }
 .section-tailored-solutions{
-	background:url(../img/review_bg.png) no-repeat;
+	background:url(../img/review_bg.jpg) no-repeat;
 	background-size: cover;
 
 	.tailored-solutions{
@@ -270,18 +394,17 @@
 			color: #111f3a;
 			font-size: 40px;
 			font-weight: $light;
-			
+			position: relative;
 		}
-		/*p.quote:before{
-		    width: 125px;
+		p.quote:before{
+		    width: 80px;
+		    height:66px;
 		    content: " ";
-		    background-image: url(../img/quote.png);
-		    background: red;
+		    background-image: url(../img/quote2.png);
 		    position: absolute;
-		    left: -16px;
-		    top: -6px;
-		    height:103px;
-		}*/
+		    left: -82px;
+		    top: -15px;
+		}
 
 		.btn-success{
 			background: #9fce67!important;
@@ -310,14 +433,13 @@
 	}
 	.clients{
 		padding-top: 30px;
-		padding-bottom: 50px;
 		> div{
 			margin-bottom: 40px;
 		}
 	}
 }
 .section-contact{
-
+     padding-top:50px;
 	.container-inner{
 		padding-top: 30px;
 		padding-bottom: 30px;
@@ -438,6 +560,10 @@
 						text-align:center;
 						line-height: 40px;
 						font-size: 22px;
+						trasition: all 0.3s ease-in-out;
+						&:hover{
+							background: #28a745;
+						}
 					}
 				}
 			}
@@ -447,64 +573,344 @@
 
 
 
-//Full Screen Search Form
-.overlay {
-    height: 100%;
-    width: 100%;
-    display: none;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0, 0.9);
+
+
+
+// CAPABILITES PAGE
+.capabilities-banner-section{
+	background:url(../img/capabilities_hero_bg.jpg) no-repeat;
 }
 
-.overlay-content {
-    position: relative;
-    top: 46%;
-    width: 80%;
-    text-align: center;
-    margin-top: 30px;
-    margin: auto;
+.section-capability{
+	.boxes{
+		margin-top: 45px;
+		.box{
+			margin-bottom: 35px;
+			position: relative;
+			.box-content{
+				background: #336b87;
+				padding: 30px 15px 25px 40px;
+				border-bottom: 3px solid $green;
+				color: $white;
+
+			    margin-top: -90px;
+			    position: relative;
+			    z-index: 2;
+				.title-wrap{
+					h3{
+						font-weight: $light;
+						font-size: 30px;
+						text-transform: uppercase;
+						margin-bottom: 0px;
+					}
+					position: relative;
+					a.plus-icon-wrap{
+						position: absolute;
+						top:-12px;
+						right: 15px;
+					}
+				}
+				.content-wrap{
+					display:none;
+					p{
+						font-weight: $light;
+						font-size: 16px;
+						color: $white;
+					}
+					a.learn-more{
+						display: inline-block;
+						margin-top: 20px;
+						text-transform: uppercase;
+						font-weight: $semi-bold;
+						color: $white;
+						span{
+							position: relative;
+							top: 2px;
+						}
+						&:hover{
+							text-decoration: none;
+							color: $green;
+						}
+					}
+				}
+
+			}
+		}
+	}
 }
 
-.overlay .closebtn {
-    position: absolute;
-    top: 20px;
-    right: 45px;
-    font-size: 60px;
-    cursor: pointer;
-    color: white;
+//Resources Page
+.resources-banner-section{
+	background:url(../img/resources_hero_bg.jpg) no-repeat;
+}
+#arrow_down{
+	position: absolute;
+	bottom: 55px;
+	left: 0px;
+	right: 0px;
+	display:inline-block;
+	z-index: 2;
+}
+.read-more-cta{
+	background: $green;
+	color: $white;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: $regular;
+	border-radius: 0px;
+	border: 1px solid $green;
 }
 
-.overlay .closebtn:hover {
-    color: #ccc;
+.section-thought-leadership{
+	.section-header{
+		.green-text{
+			color: $green;
+			font-size: 35px;
+			font-weight:$regular;
+			text-transform:uppercase;
+		}
+		h2{
+			font-size: 50px;
+			font-weight:$light;
+			text-transform:uppercase;
+			color: $white;
+		}
+	}
+	.boxes{
+		margin-top:40px;
+		.box{
+			margin-bottom: 40px;
+			img{
+				border-bottom: 3px solid $green;
+			}
+			h3{
+				margin-top: 25px;
+				a{
+					font-size: 30px;
+					font-weight:$light;
+					text-transform:uppercase;
+					color: $green;
+					text-decoration: none;
+				}
+			}
+			p{
+				font-size: 20px;
+				font-weight:$light;
+				text-transform:uppercase;
+				color: #d5d6d9;
+				a.more{
+					color: $green;
+				}
+			}
+		}
+	}
 }
 
-.overlay input[type=text] {
-    padding: 15px;
-    font-size: 17px;
-    border: none;
-    float: left;
-    width: 80%;
-    background: white;
+.section-faq{
+	.faqs{
+		margin-top: 45px;
+		ul{
+
+			li{
+				text-transform: uppercase;
+			    background: url(../img/green_square.png) no-repeat 12px 6px;
+			    min-height: 15px;
+				padding-left: 40px;
+				margin-bottom: 20px;
+				color: $white;
+				a{
+					color: $green;
+				}
+			}
+		}
+	}
 }
 
-.overlay input[type=text]:hover {
-    background: #f1f1f1;
+.section-carousel-slider{
+	padding-top: 100px;
+	.flexslider{
+		.slides {
+		    margin-top: 30px;
+		}
+		background: #3e84a1;
+		box-shadow: none;
+		margin-bottom: 0px;
+		max-width: 985px;
+		margin-left: auto;
+		margin-right: auto;
+		.slides{
+
+		}
+		ul{
+			li{
+
+				h3{
+					font-size:30px;
+					font-weight: $light;
+					color: $green;
+				}
+				p{
+					font-size: 20px;
+					color: $white;
+					a{
+						color: $green;
+					}
+				}
+				.slide-wrap{
+					position: relative;
+					.icon_video{
+						z-index: 3;
+						position: absolute;
+						top: 50%; 
+						left: 50%;
+						transform: translate(-50%, -50%);
+					}
+				}
+				&:hover{
+					cursor: pointer;
+				}
+			}
+		}
+	}
 }
 
-.overlay button {
-    float: left;
-    width: 20%;
-    padding: 15px;
-    background: #ddd;
-    font-size: 17px;
-    border: none;
-    cursor: pointer;
+//Solutions page
+.solutions-banner-section{
+	background:url(../img/solutions_hero_bg.jpg) no-repeat;
+}
+.section-clinical-oncology{
+	.right-content div.content-area:nth-child(3){
+		margin-bottom: 0px;
+	}
+	.content-area{
+		h3{
+			font-weight: $light;
+			color: $green;
+			font-size: 30px;
+		}
+		p{
+			font-size: 20px;
+			font-weight: $light;
+			line-height: 23px;
+			color: $white;
+		}
+		ul.columns2{
+		  margin-top: 35px;
+		  li{
+			    background: url(../img/green_square.png) no-repeat 2px 6px;
+			    min-height: 15px;
+				padding-left: 34px;
+				margin-bottom: 20px;
+				color: $white;
+		  }
+		}
+		
+	}
 }
 
-.overlay button:hover {
-    background: #bbb;
+.section80{
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+.section-capabilities{
+	padding-top: 90px;
+	padding-bottom: 30px;
+	.capabilities{
+		margin-top: 45px;
+		ul{
+			margin-top: 35px;
+			li{
+
+				h3{
+					color: $green;
+					font-weight: $light;
+
+				}
+				text-transform: uppercase;
+			    min-height: 15px;
+				padding-left: 40px;
+				color: $white;
+				a{
+					color: $green;
+				}
+			}
+		}
+	}
+}
+
+
+//Tertiary Page
+.tertiary-banner-section{
+	background:url(../img/tertiary_hero_bg.jpg) no-repeat;
+}
+.section2{
+	.left-content{
+		margin-top: 45px;
+		p{
+			color: $white;
+			font-weight: $light;
+			line-height: 24px;
+			font-size: 20px; 
+		}
+	}
+	.right-content{
+		margin-top: 40px;
+		ul{
+			li{
+				margin-bottom: 30px;
+				h3{
+					color: $green;
+					font-weight: $light;
+
+				}
+				text-transform: uppercase;
+			    background: url(../img/green_square.png) no-repeat 6px 12px;
+			    min-height: 15px;
+				padding-left: 34px;
+				color: $white;
+				a{
+					color: $green;
+				}
+			}
+		}
+	}
+}
+.mr-bottom0{
+	margin-bottom:0px;
+}
+.icon_video{
+	color: $green;
+	font-size: 120px;
+	&:hover{
+		color: $dark-green;
+	}
+}
+.section-video{
+	.container-inner{
+		max-width:985px;
+		margin-left: auto;
+		margin-right: auto;
+		.video-wrap{
+			position: relative;
+			.icon_video{
+				position: absolute;
+				top:50%;
+				left: 50%; 
+				transform: translate(-50%, -50%);
+				-moz-transform: translate(-50%, -50%);
+				-webkit-transform: translate(-50%, -50%);
+			}
+			margin-bottom: 50px;
+		}
+		h3{
+			font-size: 30px;
+			color: $green;
+		}
+		p{
+			color: $white;
+			font-size: 20px;
+			font-weight: $light;
+		}
+
+	}
 }

@@ -1,0 +1,45 @@
+<!-- Site Header -->
+<div class="site-header">
+    <div class="collapse background-dark" id="navbarHeader">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 py-4">
+                    <h4 class="text-white">About</h4>
+                    <p class="text-muted">This is hidden text in the HTML Build. Is this right?</p>
+                </div>
+                <div class="col-sm-4 py-4">
+                    <h4 class="text-white">Contact</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white">Follow on Twitter</a></li>
+                        <li><a href="#" class="text-white">Like on Facebook</a></li>
+                        <li><a href="#" class="text-white">Email me</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div><!-- /.collapse -->
+
+
+    <!-- Fullscreen Search -->
+    <div id="myOverlay" class="overlay">
+        <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+        <div class="overlay-content">
+            <form action="index.html">
+                <input type="text" placeholder="Search.." name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <div class="navbar navbar-fixed-top">
+        <div class="container d-flex justify-content-between">
+            <a href="#" class="navbar-brand"><img src="{{ '/img/logo.png'|url }}" alt="" class="img-fluid"></a>
+
+            <a href="#" class="srch_icon" onclick="openSearch()"><img src="{{ '/img/icon_search.png'|url }}" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+                <img src="{{ '/img/icon_plus.png'|url }}" alt=""></span>
+            </button>
+        </div>
+    </div>
+</div> <!-- /.site-header -->
