@@ -1,0 +1,57 @@
+_model: page
+---
+class: capabilities
+---
+description: sapien faucibus et molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget egestas
+---
+header: Lorem Ipsum
+---
+sections:
+
+#### capabilities ####
+title: Capabilities
+----
+header: Lorem Ipsum
+----
+capabilities:
+
+##### capability #####
+title:
+
+ Clinical Trial Optimization
+-----
+description: sapien faucibus et molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget egestas
+-----
+image_url: capability_thumb1.jpg
+##### capability #####
+title: "OMICS"-EHR Integration
+-----
+description: sapien faucibus et molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget egestas
+-----
+image_url: capability_thumb2.jpg
+##### capability #####
+title: Decision-Support Integration
+-----
+description: sapien faucibus et molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget egestas
+-----
+image_url: capability_thumb3.jpg
+##### capability #####
+title: Point-of-Care
+-----
+description: sapien faucibus et molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget egestas
+-----
+image_url: capability_thumb4.jpg
+##### capability #####
+title: Assay Validation
+-----
+description: sapien faucibus et molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget egestas
+-----
+image_url: capability_thumb5.jpg
+##### capability #####
+title: Cancer Informatics
+-----
+description: sapien faucibus et molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget egestas
+-----
+image_url: capability_thumb1.jpg
+---
+title: Capabilities

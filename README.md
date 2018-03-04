@@ -8,6 +8,9 @@ curl -sf https://www.getlektor.com/install.sh | sh
 Checkout Project
 <add github clone>
 
+View HTML without the Lektor JS
+lektor project-info --output-path
+
 
 ## References
 
@@ -37,6 +40,9 @@ Issue List
 1. Testimonial slider only slides the quotes not the logo/person.
 2. Hawaii picture has white band on certain zooms in chrome.
 3. Capability boxes don't shift down when plus clicked on the above box.
+4. Inconsistent css naming ({class}-banner-section or {class}-banner).
+5. Uncaught TypeError: $(...).magnificPopup is not a function.
+6. Lektor JS admin is interfering with the preview of Capabilities grid.
 
 Tools Used
 ----------
