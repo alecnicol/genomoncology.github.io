@@ -1,5 +1,3 @@
-_model: case_studies
----
 title: Case Studies
 ---
 infographic:
@@ -70,17 +68,17 @@ slides:
 ##### testimonial #####
 quote:
 
-The GO Clinical Workbench has helped us reduce the time to develop a clinically actionable report from half a day to less than an hour. 
+The GO Clinical Workbench has helped us reduce the time to develop a clinically actionable report from half a day to less than an hour.
 -----
 person: PAMELA GROEN, LABORATORY MANAGER THE OHIO STATE UNIVERSITY, COLLEGE OF MEDICINE, DEPT OF PATHOLOGY
 -----
-image_url: 
+image_url:
 ##### testimonial #####
 quote: Another Quote here.
 -----
 person: Another person. (Bug in HTML)
 -----
-image_url: 
+image_url:
 #### grid ####
 title: Press Releases
 ----
@@ -112,3 +110,7 @@ title: HAWAI’I PATHOLOGISTS’ LABORATORY
 header: TAILORED SOLUTIONS
 ----
 quote: Combining local expertise with the well curated data already built into GenomOncology’s systems, our lab can continuously learn about these populations, and ultimately, offer better care.
+---
+class: case-studies
+---
+show_clients: yes
