@@ -1,5 +1,10 @@
-<li>
-    <span>&ldquo;</span> {{ this.quote }} <span> &rdquo;</span>
-</li>
+<div class="testimonial">
+    <div class="comment">
+        <span>&ldquo;</span> {{ this.quote }} <span> &rdquo;</span>
+    </div><!-- /.comment -->
+    <div class="client-info clearfix">
+        <img src="{{ this.image_url }}" alt="">
+        <p>{{ this.person }}</p>
+    </div><!-- /.client-info -->
+</div><!-- /.testimonial -->
 
-<!-- todo: add logo and person here once HTML is fixed. -->

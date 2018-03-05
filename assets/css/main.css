@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Nunito:300,300i,400,400i,600,600i");
 @import url("https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700");
+@import url("https://fonts.googleapis.com/css?family=Raleway:200,400");
 * {
   margin: 0px;
   padding: 0px; }
@@ -33,10 +33,9 @@ ul li {
 
 h2 {
   font-weight: 300;
-  color: #5a5a5a;
-  text-transform: uppercase; }
+  color: #5a5a5a; }
 
-h3 {
+h1, h2, h3 {
   text-transform: uppercase; }
 
 p {
@@ -46,6 +45,11 @@ p {
   .container {
     max-width: 1170px; } }
 @media (min-width: 320px) {
+  .section-header .green-text {
+    font-size: 20px; }
+  .section-header h2 {
+    font-size: 44px; }
+
   .site-header .srch_icon {
     position: absolute;
     top: 12px;
@@ -75,9 +79,6 @@ p {
     margin-left: auto;
     margin-right: auto; }
 
-  #testimonials {
-    padding: 90px 50px 50px 50px; }
-
   .ohio-state-university {
     padding: 30px 15px; }
 
@@ -85,7 +86,7 @@ p {
     background: #111f3a; }
 
   .section-tailored-solutions {
-    background-position: -570px 0px !important; }
+    background-position: right top !important; }
 
   .block-left, .newsletter-and-socail-icons {
     max-width: 385px;
@@ -152,7 +153,43 @@ p {
     -moz-columns: 1; }
     .section-capabilities .capabilities ul li {
       margin-bottom: 18px;
-      background: url(../img/green_square.png) no-repeat 12px 5px; } }
+      background: url(../img/green_square.png) no-repeat 12px 5px; }
+
+  .section-what-clients-say .box-left {
+    max-width: 510px;
+    margin-left: auto;
+    margin-right: auto; }
+  .section-what-clients-say .container {
+    max-width: none; }
+  .section-what-clients-say .box-right {
+    margin-top: 40px; }
+
+  #testimonials {
+    margin-left: -15px;
+    margin-right: -15px; }
+    #testimonials .testimonials-area .slick-prev {
+      left: 15px;
+      z-index: 9999; }
+    #testimonials .testimonials-area .slick-next {
+      right: 15px;
+      z-index: 9999; }
+    #testimonials .testimonials-area .comment {
+      padding: 0px 70px 0px 70px; }
+    #testimonials .testimonials-area .client-info {
+      padding: 30px 15px; }
+
+  .section-hero .box {
+    margin-bottom: 25px; }
+
+  .section-genome-solutions .box {
+    margin-bottom: 90px; }
+
+  .section-genome-solutions .section-header {
+    margin-bottom: 80px; }
+  .section-genome-solutions .box {
+    max-width: 450px;
+    margin-left: auto;
+    margin-right: auto; } }
 @media (min-width: 576px) {
   .site-header .srch_icon {
     position: absolute;
@@ -164,8 +201,27 @@ p {
     height: auto; }
 
   .navbar-brand img {
-    width: 200px; } }
+    width: 200px; }
+
+  .section-banner .intro-content h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200; }
+  .section-banner .intro-content h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200; } }
 @media (min-width: 768px) {
+  .section-header .green-text {
+    font-size: 35px; }
+  .section-header h2 {
+    font-size: 50px; }
+
+  .section-banner .intro-content h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400; }
+  .section-banner .intro-content h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300; }
+
   .site-header .srch_icon {
     top: 22px;
     right: 95px; }
@@ -188,8 +244,25 @@ p {
       text-align: right;
       margin-top: 150px; }
 
+  .section-what-clients-say .container {
+    max-width: 720px; }
+  .section-what-clients-say #testimonials {
+    margin-left: 0px;
+    margin-right: 0px; }
+    .section-what-clients-say #testimonials .box-right {
+      margin-top: 120px; }
+    .section-what-clients-say #testimonials .flex-direction-nav .flex-prev {
+      left: -40px;
+      top: 40px; }
+    .section-what-clients-say #testimonials .flex-direction-nav .flex-next {
+      right: -40px;
+      top: 40px; }
+  .section-what-clients-say .box-right {
+    margin-top: 120px; }
+
   #testimonials {
-    padding: 90px 135px 50px 135px; }
+    margin-left: 0px;
+    margin-right: 0px; }
 
   .ohio-state-university {
     padding: 30px 135px; }
@@ -263,14 +336,11 @@ p {
     -moz-columns: 2; }
     .section-capabilities .capabilities ul li {
       margin-bottom: 48px;
-      background: url(../img/green_square.png) no-repeat 12px 12px; } }
+      background: url(../img/green_square.png) no-repeat 12px 12px; }
+
+  .section-genome-solutions .section-header {
+    margin-bottom: 20px; } }
 @media (min-width: 992px) {
-  .tailored-solutions {
-    padding-left: 370px; }
-
-  .section-tailored-solutions {
-    background-position: -115px top !important; }
-
   .section-clinical-oncology .content-area ul.columns2 {
     margin-top: 35px;
     columns: 2;
@@ -281,7 +351,32 @@ p {
     margin-top: 35px;
     columns: 3;
     -webkit-columns: 3;
-    -moz-columns: 3; } }
+    -moz-columns: 3; }
+
+  .section-what-clients-say .container {
+    max-width: 960px; }
+
+  #testimonials .testimonials-area .slick-prev {
+    left: 35px;
+    z-index: 9999; }
+  #testimonials .testimonials-area .slick-next {
+    right: 35px; }
+  #testimonials .testimonials-area .comment {
+    padding: 0px 135px 0px 135px; }
+  #testimonials .testimonials-area .client-info {
+    padding: 30px 135px; }
+
+  .section-genome-solutions .box {
+    margin-bottom: 0px; } }
+@media (min-width: 1200px) {
+  .tailored-solutions {
+    padding-left: 370px; }
+
+  .section-tailored-solutions {
+    background-position: left top !important; }
+
+  .section-what-clients-say .container {
+    max-width: 1140px; } }
 .page-wrapper {
   overflow: hidden; }
 
@@ -432,7 +527,7 @@ p {
       font-size: 35px;
       text-transform: uppercase; }
     .section-banner .intro-content h2 {
-      font-weight: 300;
+      /*font-weight: $light; */
       font-size: 50px;
       color: #fff;
       text-transform: uppercase; }
@@ -456,11 +551,9 @@ p {
 
 .section-header .green-text {
   color: #9fce67;
-  font-size: 35px;
   font-weight: 400;
   text-transform: uppercase; }
 .section-header h2 {
-  font-size: 50px;
   font-weight: 300;
   text-transform: uppercase;
   color: #fff; }
@@ -501,38 +594,43 @@ p {
           color: #9fce67; }
 
 .section-testimonials {
-  background: url(../img/testimonial_bg.png) no-repeat;
-  background-size: cover; }
+  background: url(../img/testimonial_bg.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 84px; }
   .section-testimonials .inner-container {
-    text-align: center;
+    padding-top: 85px;
     background: #111f3a; }
-    .section-testimonials .inner-container #testimonials {
-      /*padding: 90px 135px 50px 135px;*/ }
-      .section-testimonials .inner-container #testimonials h3 {
-        font-weight: 300;
-        color: #9fce67;
-        font-size: 20px;
-        text-transform: uppercase; }
-      .section-testimonials .inner-container #testimonials .flexslider {
-        background: none;
-        box-shadow: none; }
-        .section-testimonials .inner-container #testimonials .flexslider li {
-          color: #fff;
-          font-weight: 300;
-          font-size: 30px;
-          line-height: 48px; }
-    .section-testimonials .inner-container .ohio-state-university {
-      clear: both;
-      text-align: left;
-      border-top: 3px solid #9fce67; }
-      .section-testimonials .inner-container .ohio-state-university img {
-        float: left; }
-      .section-testimonials .inner-container .ohio-state-university p {
-        color: #9fce67;
-        font-weight: 300;
-        font-size: 20px;
-        text-transform: uppercase;
-        margin-left: 110px; }
+
+#testimonials h3 {
+  font-weight: 300;
+  color: #9fce67;
+  font-size: 20px;
+  text-transform: uppercase; }
+#testimonials .testimonials-area {
+  margin-bottom: 0px; }
+  #testimonials .testimonials-area .slick-prev, #testimonials .testimonials-area .slick-next {
+    top: 25%; }
+  #testimonials .testimonials-area .comment {
+    text-align: center;
+    color: #fff;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 48px; }
+  #testimonials .testimonials-area .client-info {
+    clear: both;
+    text-align: left;
+    border-top: 3px solid #9fce67;
+    margin-top: 30px; }
+    #testimonials .testimonials-area .client-info img {
+      float: left; }
+    #testimonials .testimonials-area .client-info p {
+      color: #9fce67;
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 24px;
+      text-transform: uppercase;
+      margin-left: 110px; }
 
 .section-press-releases {
   padding-top: 50px;
@@ -965,5 +1063,133 @@ p {
     color: #fff;
     font-size: 20px;
     font-weight: 300; }
+
+.section-hero {
+  background: url(../img/home_hero_bg.jpg) no-repeat;
+  background-size: cover;
+  position: relative;
+  min-height: 1000px; }
+  .section-hero .container {
+    position: relative;
+    min-height: 1000px; }
+  .section-hero .intro-content .content-top {
+    padding-top: 170px;
+    padding-bottom: 45px; }
+    .section-hero .intro-content .content-top h1 {
+      color: #9fce67;
+      font-size: 35px; }
+    .section-hero .intro-content .content-top h2 {
+      font-size: 50px;
+      font-weight: 300;
+      color: #fff; }
+  .section-hero .intro-content .box {
+    border-bottom: 3px solid #9fce67; }
+    .section-hero .intro-content .box .content_wrap {
+      background: rgba(83, 145, 170, 0.6);
+      padding: 15px 25px 5px 25px; }
+      .section-hero .intro-content .box .content_wrap h3 {
+        color: #fff;
+        font-size: 30px;
+        font-weight: 300;
+        margin-bottom: 0px; }
+      .section-hero .intro-content .box .content_wrap p {
+        font-size: 16px;
+        color: #fff;
+        font-weight: 300; }
+
+.section-genome-solutions .box .content_wrap {
+  margin-top: 30px; }
+  .section-genome-solutions .box .content_wrap h3 {
+    font-size: 30px;
+    font-weight: 300;
+    color: #9fce67; }
+  .section-genome-solutions .box .content_wrap p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300; }
+
+.section-my-cancer-genome {
+  background: url(../img/bg_women.jpg) no-repeat;
+  background-size: cover; }
+  .section-my-cancer-genome .box {
+    max-width: 570px; }
+    .section-my-cancer-genome .box .box-content {
+      background: #578a9d;
+      padding: 30px 20px 30px 40px;
+      border-bottom: 3px solid #9fce67; }
+      .section-my-cancer-genome .box .box-content p {
+        font-weight: 300;
+        color: #fff;
+        font-size: 16px; }
+
+.section-clients-carousel .clients-carousel {
+  margin-top: 50px; }
+  .section-clients-carousel .clients-carousel > div img {
+    margin-left: auto;
+    margin-right: auto; }
+  .section-clients-carousel .clients-carousel .slick-track {
+    display: flex; }
+  .section-clients-carousel .clients-carousel .slick-track .slick-slide {
+    display: flex;
+    height: auto;
+    align-items: center;
+    justify-content: center; }
+
+.section-what-clients-say {
+  background: url(../img/testimonial_bg.jpg);
+  background-size: cover;
+  background-attachment: fixed; }
+  .section-what-clients-say .box-left {
+    background: #111f3a;
+    padding: 60px 15px 30px 30px;
+    border-bottom: 3px solid #9fce67; }
+    .section-what-clients-say .box-left h3 {
+      font-size: 26px;
+      font-weight: 300;
+      color: #9fce67;
+      margin-bottom: 20px; }
+    .section-what-clients-say .box-left ul li {
+      text-transform: uppercase;
+      background: url(../img/green_square.png) no-repeat 2px 6px;
+      min-height: 15px;
+      padding-left: 30px;
+      margin-bottom: 20px;
+      color: #fff; }
+      .section-what-clients-say .box-left ul li a {
+        color: #9fce67; }
+  .section-what-clients-say #testimonials {
+    background: #111f3a;
+    padding-top: 98px; }
+    .section-what-clients-say #testimonials h3 {
+      font-weight: 300;
+      color: #9fce67;
+      font-size: 20px;
+      text-transform: uppercase; }
+    .section-what-clients-say #testimonials .flexslider {
+      background: none;
+      box-shadow: none; }
+      .section-what-clients-say #testimonials .flexslider li {
+        color: #fff;
+        font-weight: 300;
+        font-size: 30px;
+        line-height: 48px; }
+    .section-what-clients-say #testimonials .slides img {
+      width: auto; }
+    .section-what-clients-say #testimonials .slides .comment {
+      text-align: center; }
+    .section-what-clients-say #testimonials .slides .client-info {
+      clear: both;
+      text-align: left;
+      border-top: 3px solid #9fce67;
+      margin-top: 30px; }
+      .section-what-clients-say #testimonials .slides .client-info img {
+        float: left; }
+      .section-what-clients-say #testimonials .slides .client-info p {
+        color: #9fce67;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 24px;
+        text-transform: uppercase;
+        margin-left: 110px; }
 
 /*# sourceMappingURL=main.css.map */

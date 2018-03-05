@@ -1,23 +1,19 @@
-  <div class="section-testimonials section">
+<div class="section-testimonials section">
     <div class="container-wrapper">
-      <div class="container">
-        <div class="inner-container">
-          <div id="testimonials" class="clearfix">
-            <h3>{{ this.title }}</h3>
-            <!-- flexslider -->
-            <div  id="what_clients_say" class="flexslider">
-              <ul class="slides">
-                {% for slide in this.slides.blocks %}
-                    {{ slide }}
-                {% endfor %}
-              </ul>
-            </div><!-- /.flexslider -->
-          </div><!-- /#testimonials -->
-          <div class="ohio-state-university clearfix">
-            <img src="{{ '/img/ohio_state_university.png'|url }}" alt="">
-            <p>Pamela Groen, Laboratory Manager the Ohio State University, College of Medicine, Dept Of Pathology</p>
-          </div>
-        </div><!-- /.inner-container -->
-      </div><!-- /.container -->
+        <div class="container">
+            <div class="inner-container">
+                <div id="testimonials" class="clearfix">
+                    <h3 class="text-center">what our clients say</h3>
+
+                    <!-- testimonials -->
+                    <div class="testimonials-area">
+                    {% for slide in this.slides.blocks %}
+                        {{ slide }}
+                    {% endfor %}
+                    </div><!-- /.testimonials-area -->
+
+                </div><!-- /#testimonials -->
+            </div><!-- /.inner-container -->
+        </div><!-- /.container -->
     </div><!-- /.container-wrapper -->
-  </div><!-- /.secion-testimonials -->
+</div><!-- /.secion-testimonials -->

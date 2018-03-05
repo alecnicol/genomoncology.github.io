@@ -8,6 +8,14 @@ header: Lorem Ipsum
 ---
 sections:
 
+#### banner ####
+class: capabilities
+----
+title: Capabilities
+----
+header: Lorem Ipsum
+----
+description: sapien faucibus et molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget egestas
 #### capabilities ####
 title: Capabilities
 ----

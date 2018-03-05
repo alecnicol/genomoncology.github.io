@@ -1,3 +1,77 @@
-title: Welcome
+title: Next Generation Answers for Battling Cancer
 ---
-sections: 
+sections:
+
+#### hero ####
+title: Answers for Battling Cancer
+----
+header: Next Generation
+----
+tiles:
+
+##### hero_tile #####
+title: Our Solutions
+-----
+description: Epsum factorial non deposit quid pro quo hic escorol. Olypian quarre ls et gorilla congolium sic ad nauseum. Souvlaki ignitus carborund um e pluribus unum. Defacto lingo est igpay atinlay. Marquee selec tus non provisio incongruous feline nolo contendre. /solutions
+-----
+image_url: our_solutions_img.jpg
+##### hero_tile #####
+title: Who We Serve
+-----
+description: Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt. Ut laoreet dolore magna aliquam erat volutpat ut wisi enim ad minim veniam. Marquee selec tus non provisio incongruous feline nolo contendre. /resources/case-studies
+-----
+image_url: who_we_server.jpg
+#### solutions ####
+title: Genome Solutions
+----
+header: Next Generation
+----
+tiles:
+
+##### solutions_tile #####
+title: Clinical Oncology
+-----
+description: Lorem ipsum dolor sit amet, consecte tuer adipiscing elit, sed diam nonummy nibh. /solutions/clinicaloncology
+-----
+image_url: icon_medical_tool.png
+##### solutions_tile #####
+title: Molecular Pathology
+-----
+description: Lorem ipsum dolor sit amet, consecte tuer adipiscing elit, sed diam nonummy nibh./solutions/molecularpathology
+-----
+image_url: icon_microscope.png
+##### solutions_tile #####
+title: Cancer Informatics
+-----
+description: Lorem ipsum dolor sit amet, consecte tuer adipiscing elit, sed diam nonummy nibh./solutions/cancerinformatics
+-----
+image_url: icon_file.png
+#### mcg ####
+description: Epsum factorial non deposit quid pro quo hic escorol. Olypian quarre ls et gorilla congolium sic ad nauseum. Souvlaki ignitus carborund um e pluribus unum. Defacto lingo est igpay atinlay. Marquee selec tus non provisio incongruous. /technology/my-cancer-genome
+----
+image_url: hands.jpg
+#### carousel ####
+title: Clients Served
+----
+header: Lorem Ipsum
+----
+icons:
+
+##### carousel_icon #####
+image_url: client1.png
+##### carousel_icon #####
+image_url: client2.png
+##### carousel_icon #####
+image_url: client3.png
+##### carousel_icon #####
+image_url: client4.png
+##### carousel_icon #####
+image_url: client1.png
+##### carousel_icon #####
+image_url: client2.png
+#### tailored ####
+title: HAWAI’I PATHOLOGISTS’ LABORATORY
+----
+header: Tailored Solutions
+----
+quote: Combining local expertise with the well curated data already built into GenomOncology’s systems, our lab can continuously learn about these populations, and ultimately, offer better care.

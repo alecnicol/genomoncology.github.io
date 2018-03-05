@@ -1,0 +1,15 @@
+<!-- Genome Solutions -->
+<div class="section-genome-solutions section background-dark">
+<div class="container">
+  <div class="section-header text-center">
+    <div class="green-text">{{ this.header }}</div>
+    <h2>{{ this.title }}</h2>
+  </div><!-- /.section-header -->
+  <div class="row">
+  {% for tile in this.tiles.blocks %}
+      {{ tile }}
+  {% endfor %}
+  </div><!-- /.row -->
+</div><!-- /.container -->
+</div><!-- /.section-genome-solutions -->
+

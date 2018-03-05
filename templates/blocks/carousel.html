@@ -1,0 +1,17 @@
+<!-- Clients Carousel -->
+<div class="section-clients-carousel bg-blue section">
+<div class="container">
+  <div class="section-header text-center">
+    <div class="green-text">{{ this.header }}</div>
+    <h2>{{ this.title }}</h2>
+  </div><!-- /.section-header -->
+
+  <!-- clients carousel -->
+  <div class="clients-carousel">
+  {% for icon in this.icons.blocks %}
+      {{ icon }}
+  {% endfor %}
+  </div><!-- /.clients-carousel -->
+</div><!-- /.container -->
+</div><!-- /.section-clients-carousel -->
+
