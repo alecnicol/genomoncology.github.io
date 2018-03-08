@@ -12,13 +12,13 @@ tiles:
 ##### hero_tile #####
 title: Our Solutions
 -----
-description: Epsum factorial non deposit quid pro quo hic escorol. Olypian quarre ls et gorilla congolium sic ad nauseum. Souvlaki ignitus carborund um e pluribus unum. Defacto lingo est igpay atinlay. Marquee selec tus non provisio incongruous feline nolo contendre. /solutions
+description: GenomOncology enables the application of genomics in oncology to improve patient care.  Our solutions are end-to-end: from the data coming out of the sequencer to the bedside where oncologists make treatment decisions.
 -----
 image_url: our_solutions_img.jpg
 ##### hero_tile #####
 title: Who We Serve
 -----
-description: Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt. Ut laoreet dolore magna aliquam erat volutpat ut wisi enim ad minim veniam. Marquee selec tus non provisio incongruous feline nolo contendre. /resources/case-studies
+description: GenomOncology enables real-time clinical decision making at the point of care, including solutions for  molecular pathology, clinical oncology and cancer informatics.
 -----
 image_url: who_we_server.jpg
 #### solutions ####
@@ -31,19 +31,21 @@ tiles:
 ##### solutions_tile #####
 title: Clinical Oncology
 -----
-description: Lorem ipsum dolor sit amet, consecte tuer adipiscing elit, sed diam nonummy nibh. /solutions/clinicaloncology
+description:
+
+A comprehensive set of tools that enable knowledge driven clinical decision support. 
 -----
 image_url: icon_medical_tool.png
 ##### solutions_tile #####
 title: Molecular Pathology
 -----
-description: Lorem ipsum dolor sit amet, consecte tuer adipiscing elit, sed diam nonummy nibh./solutions/molecularpathology
+description: Solutions for molecular pathologists that address the full range of requirements for precision medicine and molecular genetics
 -----
 image_url: icon_microscope.png
 ##### solutions_tile #####
 title: Cancer Informatics
 -----
-description: Lorem ipsum dolor sit amet, consecte tuer adipiscing elit, sed diam nonummy nibh./solutions/cancerinformatics
+description: Information science solutions that integrate genomics data and decision support functionality into existing IT infrastructures.
 -----
 image_url: icon_file.png
 #### mcg ####
